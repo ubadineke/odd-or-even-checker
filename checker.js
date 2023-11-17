@@ -25,10 +25,10 @@ function extractLastElement(array) {
 
 //Takes last element and compares with an array of defined numbers
 function checkStatus(val) {
-  let checkArr = [2, 4, 6, 8, 10];
+  let checkArr = [2, 4, 6, 8, 0];
   if (checkArr.includes(val)) {
-    console.log("This is an EVEN number");
-  } else console.log("This is an ODD number");
+    alert("This is an EVEN number");
+  } else alert("This is an ODD number");
 }
 
 splitToArray(number);
